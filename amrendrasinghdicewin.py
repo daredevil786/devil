@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-import random
+import random #  random function
 count=0
 r=0
 while count<=100:
 		rool=input("press q to rool")
-		if rool=="q":
-			r=random.randint(1,6)
+		if rool=="q": #for play dice press q
+			r=random.randint(1,6) #the number which you want in random
 			count=count+r
 			if count>=100:
 				print("u won")
@@ -48,4 +48,4 @@ while count<=100:
 				elif count==93:
 					count=64
 				else:
-					print(count)
+					print(count) 
