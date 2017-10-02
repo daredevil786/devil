@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import random
-print(random.randint(23,49))
-if r<35:
+print(random.randint(23,49)) #random integer
+if r<35: #condition for results
        print(r)
 	      print(": is less than 35")
 elif r==30:
